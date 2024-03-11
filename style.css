@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    zoom: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: rgb(92, 56, 192);
+    font-size: 3.8rem;
+}
+
+.buttons img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#play-button {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+#play-button img{
+    /* cursor: pointer; */
+    height: 7vh;
+}
+
+#play-button p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.game {
+    display: flex;
+    position: relative;
+    /* margin: 20rem; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    height: 60vh;
+}
+
+.your-hand img{
+    width: 450px;
+}
+
+.you,.computer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border: 2px solid yellow;
+    width: 30vw;
+    height: 52vh;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    padding-left: 45px;
+    gap: 60px;
+}
+
+p {
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#vs img {
+    height: 580px;
+}
+
+#vs {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+
+.hands {
+    width: 30vw;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+#play-again-button p{
+    padding: 5px;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #FAB201;
+    font-size: 1.8rem;
+    border-radius: 8px;
+}
+
+#logo img {
+    height: 60vh;
+}
